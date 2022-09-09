@@ -16,3 +16,20 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px;
+  min-width: 200px;
+  background-color: #b0a1d6;
+  border: transparent;
+  border-radius: 6px;
+  color: #68327a;
+}
