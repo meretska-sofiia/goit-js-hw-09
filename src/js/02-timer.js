@@ -39,7 +39,7 @@ const timer = {
     intervalId: null,
 
     start() {
-        intervalId = setInterval(() => {
+        this.intervalId = setInterval(() => {
             const different = deadLine.getTime() - Date.now();
  
 
